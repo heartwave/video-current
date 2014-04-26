@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML5 Video — Current Point</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="app.js"></script>
+</head>
+<body>
+    <div class="b-container">
+        <video controls autoplay ontimeupdate="updateTime(this.currentTime, this.id);" id="one" class="b-video" src="http://drugoi.kz/video/woodkid_iron.mp4"></video>
+        <video controls id="two" class="b-video" src="http://drugoi.kz/video/woodkid_iron.mp4"></video>
+        <video controls id="three" class="b-video" src="http://drugoi.kz/video/woodkid_iron.mp4"></video>
+        <div class="b-actions">
+            <button id="button1" onclick="openVideo(this.id);">Video #1</button>
+            <button id="button2" onclick="openVideo(this.id);">Video #2</button>
+            <button id="button3" onclick="openVideo(this.id);">Video #3</button>
+        </div>
+    </div>
+</body>
+</html>

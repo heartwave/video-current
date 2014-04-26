@@ -1,0 +1,26 @@
+.b-container {
+	margin:0 auto;
+	width:980px;
+}
+
+.b-video {
+	display:none;
+	margin:0 auto;
+}
+
+.b-video:first-child {
+	display:block;
+}
+
+.b-actions {
+	margin:20px auto;
+	width:300px;
+}
+
+button {
+	width:32%;
+	height:30px;
+	font-size:15px;
+	line-height:20px;
+	cursor:pointer;
+}
